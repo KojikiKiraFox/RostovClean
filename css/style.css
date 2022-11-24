@@ -1,0 +1,247 @@
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1244px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #202020;
+}
+
+ul,
+li,
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #202020;
+}
+
+.section{
+    padding: 25px 0;
+}
+
+.btn{
+    border: none;
+    padding: 12px 24px;
+    background: #4A72FF;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 122.02%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.section-title{
+    text-align: start;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 122.02%;
+}
+
+.section-up-title{
+    position: relative;
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.section-up-title::before{
+    position: absolute;
+    content: '';
+    left: -40px;
+    top: 6px;
+    width: 30px;
+    height: 2px;
+    border: 2px solid #4A72FF;
+    border-radius: 3px;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////// */
+/* .header */
+
+
+.header-top,
+.header-bottom,
+.navigation-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top{
+    border-bottom: 1px solid #CACACA;
+    padding-bottom: 13px;
+}
+
+.info-addres,
+.info-email{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.social-link:not(:last-child){
+    margin-right: 32px;
+}
+
+.info-addres{
+    margin-right: 38px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation-item:not(:last-child){
+    margin-right: 40px;
+}
+
+/* /.header */
+/* ///////////////////////////////////////////////////// */
+/* .hero */
+
+.hero-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-items__left{
+    max-width: 570px;
+    width: 100%;
+}
+
+.hero-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 122.02%;
+    margin-bottom: 32px;
+}
+
+.hero-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+/* /.hero */
+/* //////////////////////////////////////////////////// */
+/* services */
+
+.services-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services-item{
+    max-width: 400px;
+    background: #FFFFFF;
+    box-shadow: 2px 4px 11px 3px rgba(136, 136, 156, 0.25);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 48px;
+    margin: 15px;
+}
+
+.services-item__links{
+    display: flex;
+    flex-direction: column;
+}
+
+.services-item__title{
+    margin-bottom: 24px;
+}
+
+.services-img{
+    margin-bottom: 15px;
+}
+
+.services-item__link{
+    position: relative;
+}
+
+.services-item__link::after{
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 11px;
+    background: url('../img/sercives/07.svg') no-repeat center / cover;
+    top: 0;
+}       
+
+.services-item__link:not(:last-child){
+    margin-bottom: 12px;
+}
+/* /.services */
+/* ////////////////////////////////////////// */
+/* .cleaning */
+
+.cleaning-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cleaning-items__left{
+    max-width: 570px;
+    width: 100%;
+}
+
+.cleaning-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 122.02%;
+    margin-bottom: 32px;
+}
+
+.cleaning-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+
+/* /.cleaning */
+
+/* ////////////////////////////////////////// */
+/* .footer */
+
+.footer{
+    border-top: 1px solid #CACACA;
+}
+
+.footer-items{
+    max-width: 872px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-items__top{
+    margin-bottom: 25px;
+}
+
+.copyrate{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+}
